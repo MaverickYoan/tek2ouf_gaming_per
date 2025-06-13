@@ -1,5 +1,5 @@
 <?php
-require_once 'src\app\db.php';
+require_once 'app/db.php';
 session_start();
 $msg = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

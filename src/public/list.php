@@ -1,5 +1,5 @@
 <?php
-require_once 'src\app\db.php';
+require_once 'app/db.php';
 $stmt = $dbh->query('SELECT * FROM jeux');
 $jeux = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>

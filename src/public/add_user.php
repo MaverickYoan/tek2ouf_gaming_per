@@ -1,5 +1,5 @@
 <?php
-require_once 'src\app\db.php';
+require_once 'app/db.php';
 $msg = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt = $dbh->prepare("INSERT INTO users (username, password, email) VALUES (?, ?, ?)");
