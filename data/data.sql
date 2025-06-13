@@ -6,6 +6,15 @@ CREATE TABLE users (
   is_admin BOOLEAN DEFAULT FALSE
 );
 
+CREATE TABLE jeux (
+  id SERIAL PRIMARY KEY,
+  titre VARCHAR(255) NOT NULL,
+  description TEXT,
+  image_path VARCHAR(255), -- chemin de l’image sur le serveur
+  date_sortie DATE,
+  genre VARCHAR(100)
+);
+
 -- CREATE TABLE jeux (
 --   id SERIAL PRIMARY KEY,
 --   titre VARCHAR(255) NOT NULL,
@@ -15,12 +24,3 @@ CREATE TABLE users (
 --   genre VARCHAR(100),
 --   createur_id INTEGER REFERENCES users(id)
 -- );
-
-CREATE TABLE jeux (
-  id SERIAL PRIMARY KEY,
-  titre VARCHAR(255) NOT NULL,
-  description TEXT,
-  image_path VARCHAR(255), -- chemin de l’image sur le serveur
-  date_sortie DATE,
-  genre VARCHAR(100)
-);
