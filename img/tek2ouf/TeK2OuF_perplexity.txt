@@ -1,0 +1,59 @@
+Cahier des charges pour le site PHP CRUD Docker avec PostgreSQL, PgAdmin et catalogue de jeux vidéo
+Voici comment structurer et concevoir ton site web dynamique, avec un style néon Matrix/camouflage vert, plusieurs pages, gestion d’images pour un catalogue de jeux vidéo, et une architecture moderne basée sur Docker, PHP, PostgreSQL et PgAdmin.
+
+1. Architecture technique
+Backend : PHP natif (ou Laravel si besoin de plus de structure)
+
+Base de données : PostgreSQL (édition et gestion via PgAdmin)
+
+Gestion des images : stockage sur le serveur, liens en base
+
+Déploiement : Docker Compose pour orchestrer PHP, PostgreSQL, PgAdmin
+
+Frontend : HTML/CSS/JS avec animations de backgrounds néon verts façon Matrix/camouflage
+
+2. Exemple de docker-compose.yml
+Ce fichier lance trois conteneurs : PHP+Apache, PostgreSQL, et PgAdmin pour l’administration de ta base.
+
+3. Structure des pages web
+Page	Fonctionnalité principale
+Home	Présentation, visuel Matrix/camouflage, navigation
+Ajout de jeux	Formulaire CRUD, upload d’image
+Ajout d’utilisateurs	Création de comptes utilisateurs
+Jeux	Catalogue dynamique, images, filtres
+Liste	Tableaux de jeux/utilisateurs
+Connexion	Authentification
+Administration	Back-office, gestion avancée
+Contacts	Formulaire de contact
+Index	Redirection ou page d’accueil principale
+
+
+5. Upload et affichage d’images
+Formulaire d’ajout de jeu : champ pour uploader une image (stockée dans /uploads)
+
+Sauvegarde du chemin de l’image dans la base (champ image_url)
+
+Affichage dans la page catalogue/liste
+
+6. Style visuel : Matrix néon/camouflage vert
+Palette : noir, gris béton, vert fluo, variantes de verts, blanc, jaune acide pour accentuer.
+
+Typographie : monospace ou graffiti stylisé, effets “glitch” ou “fracture”.
+
+Background CSS animé :
+
+Utilise des gradients animés et des SVG/Canvas pour l’effet Matrix ou camouflage vert.
+
+Exemple CSS pour fond Matrix :
+
+
+
+
+
+
+
+
+
+
+
+

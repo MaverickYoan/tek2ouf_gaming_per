@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a2a1a 0%, #0f0 100%);
+    overflow-x: hidden;
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;
+    animation: neonBg 10s linear infinite alternate;
+  }
+  
+  @keyframes neonBg {
+    0% { filter: hue-rotate(0deg);}
+    100% { filter: hue-rotate(90deg);}
+  }
+  
+  /* Effet Matrix : pluie de caractères */
+  .matrix {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    pointer-events: none;
+    z-index: 0;
+  }
+  

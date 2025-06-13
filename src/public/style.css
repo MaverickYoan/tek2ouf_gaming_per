@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(135deg, #1a2a1a 0%, #0f0 100%);
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+  }
+  nav a { color: #fff; margin-right: 10px; }
+  .catalogue { display: flex; flex-wrap: wrap; gap: 2em; }
+  .jeu { background: #222c; padding: 1em; border-radius: 10px; width: 220px; }
+  img { border-radius: 8px; }
+  
