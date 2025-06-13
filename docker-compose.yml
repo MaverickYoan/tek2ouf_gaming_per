@@ -5,7 +5,7 @@ services:
     image: php:8.2-apache
     container_name: php-web
     volumes:
-      - ./src/public:/var/www/html
+      - ./src:/var/www/html
       - ./uploads:/var/www/html/uploads
     ports:
       - "8000:80"
