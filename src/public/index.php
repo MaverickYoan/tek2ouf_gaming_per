@@ -10,13 +10,13 @@
 <body>
     <h1>Bienvenue sur TeK2OuF</h1>
     <nav>
-        <a href="add_game.php">Ajouter un jeu</a> |
-        <a href="add_user.php">Créer un utilisateur</a> |
-        <a href="games.php">Catalogue</a> |
-        <a href="list.php">Liste</a> |
-        <a href="login.php">Connexion</a> |
-        <a href="admin.php">Administration</a> |
-        <a href="contact.php">Contact</a>
+        <a href="http://localhost:8080/add_game.php">Ajouter un jeu</a> |
+        <a href="http://localhost:8080/add_user.php">Créer un utilisateur</a> |
+        <a href="http://localhost:8080/games.php">Catalogue</a> |
+        <a href="http://localhost:8080/list.php">Liste</a> |
+        <a href="http://localhost:8080/login.php">Connexion</a> |
+        <a href="http://localhost:8080/admin.php">Administration</a> |
+        <a href="http://localhost:8080/contact.php">Contact</a>
     </nav>
     <p>Le site du catalogue jeux vidéo, esprit Matrix/TeK2OuF !</p>
 </body>
