@@ -211,7 +211,7 @@ const Admin = () => {
                   <ul className="mt-2 space-y-1 text-green-300/80">
                     <li>• PostgreSQL 15</li>
                     <li>• pgAdmin 4</li>
-                    <li>• Port: 5432 (DB), 8080 (pgAdmin)</li>
+                    <li>• Port: 5432 (DB), 8000 (pgAdmin)</li>
                     <li>• Volume persistant</li>
                   </ul>
                 </div>
