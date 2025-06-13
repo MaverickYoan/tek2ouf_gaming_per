@@ -1,5 +1,5 @@
 <?php
-require_once '../app/db.php';
+require_once 'src\app\db.php';
 require_once '../app/functions.php';
 
 $msg = '';

@@ -1,4 +1,4 @@
-<?php include '../app/db.php'; ?>
+<?php include 'src\app\db.php'; ?>
 <!DOCTYPE html>
 <html>
 
