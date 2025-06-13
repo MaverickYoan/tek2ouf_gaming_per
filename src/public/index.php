@@ -1,4 +1,27 @@
-<?php include 'app/db.php'; ?>
+<?php
+require_once 'app/db.php';
+
+if (!isset($db) || !$db) {
+    die("Erreur de connexion à la base de données.");
+}
+
+// * sql SELECT
+$sql = "SELECT * FROM jeux";
+
+// * préparation de la requête sql
+$query = $db->prepare($sql);
+
+// * exécution de la requête sql
+$query->execute();
+
+// * récupération des données de la requête sql
+$jeux = $query->fetchAll(PDO::FETCH_ASSOC);
+
+// * afficher la table jeux
+// print_r($jeux);
+
+require_once "logout.php";
+?>
 
 <!DOCTYPE html>
 <html>
